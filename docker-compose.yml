@@ -10,7 +10,7 @@ services:
       - "tumlab.local:192.168.4.1"
     environment:
       NEXT_PUBLIC_API_URL : http://tumlab.local:4015
-      EXT_PUBLIC_PORT : 3000
+      NEXT_PUBLIC_PORT : 3000
     ports:
       - "3015:3000"
     networks:
